@@ -1,9 +1,9 @@
-//SPDX-License-Identifier: MIT
-pragma solidity 0.8.25;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.25;
 
 import {Test} from "forge-std/Test.sol";
-import {BEAT} from  "../src/BEAT.sol";
 import {console} from "forge-std/console.sol";
+import {BEAT} from "../src/BEAT.sol";
 import {ERC20} from "openzeppelin-contracts/token/ERC20/ERC20.sol";
 import {AccessControl} from "openzeppelin-contracts/access/AccessControl.sol";
 import {ERC20Burnable} from "openzeppelin-contracts/token/ERC20/extensions/ERC20Burnable.sol";
